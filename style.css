@@ -1,0 +1,114 @@
+body {
+    background-color: rgba(10,12,27,255);
+    margin: 100px;
+    align-content: center;
+
+    
+}
+
+/* =============================
+The Main Container
+=============================  */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1080px;
+    min-width: 540px;
+}
+
+/* Responsive  */
+
+@media (max-width:776px)  {
+    .container { 
+        flex-wrap: wrap-reverse;
+    }
+
+}
+
+/*=============================
+ all text properties
+=============================*/
+
+.text-box {
+    background-color: #1c1938;
+    align-self: center;
+    border-radius: 12px 0px 0px 12px;
+    height: 454px;
+    
+}
+
+
+/* h1 properties */
+.main {
+    font-family:'Inter', sans-serif;
+    color: #ffffff;
+    text-align: left;
+    margin: 35px 15px 5px 35px;
+    padding: 25px 100px 15px 35px;
+    
+}
+
+/* Phrasing Content for "insights" word */
+.span {
+    color: hsl(277, 64%, 61%);
+}
+
+p {
+    color: #ffffff;
+    text-align: left;
+    margin: 10px 25px 25px 35px;
+    padding: 10px 118px 25px 35px;
+    font-size: 15px;
+}
+
+
+.img-box {
+    align-self: center;
+}
+
+img {
+    background-color: #934fbe;
+    mix-blend-mode: difference;
+    height: 450px;
+    width: 540px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.subs {
+    margin: 10px 10px 10px 35px;
+    padding: 10px 10px 10px 15px;
+}
+
+.one, .two, .three {
+    display: inline-grid;
+    color: #ffffff;
+    /* word-spacing: 10px; */
+    word-wrap: break-word;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+strong {
+    font-size: larger;
+}
+
+
+
+.attribution {
+    text-align: center;
+    color: antiquewhite;
+
+}
+
+.link-a, .link-b {
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    right: 805.531px;
+    left: 805.547px;
+    align-items: center;
+}
